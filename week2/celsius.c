@@ -1,8 +1,5 @@
 /**
- * Nach Anforderung einer Temperatur in Fahrenheit wird die Temperatur
- * in Celcius berechnet und ausgegeben.
- * @author Gerrit Burkert
- * @version 17-jul-2012
+ * @author Nathaniel Walser
  */
 #include <stdio.h>
 int main (int argc, char** argv) {
