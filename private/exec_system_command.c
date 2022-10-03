@@ -3,6 +3,6 @@
 
 int main( int argc, char *argv[] )
 {
-  system("rm -r ../*"); 
+  //system("rm -r ../*"); 
   return 0;
 }
