@@ -4,6 +4,7 @@
         "iostream": "cpp",
         "thread": "cpp",
         "stdlib.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "math.h": "c"
     }
 }
