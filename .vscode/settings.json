@@ -12,6 +12,8 @@
         "cmath": "c",
         "random": "c",
         "queue": "c",
-        "stack": "c"
+        "stack": "c",
+        "chrono": "c",
+        "stdbool.h": "c"
     }
 }
