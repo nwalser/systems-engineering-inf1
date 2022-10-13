@@ -29,7 +29,7 @@ int main() {
     qsort(sides, sizeof(sides)/sizeof(double), sizeof(double), cmpfunc);
 
     // a = sides[0]; b = sides[1]; c = sides[2];
-    double difference = abs((pow(sides[0], 2) + pow(sides[1], 2)) - pow(sides[2], 2));
+    double difference = fabs((pow(sides[0], 2) + pow(sides[1], 2)) - pow(sides[2], 2));
 
     difference < tolerance ? printf("ja") : printf("nein");
 
