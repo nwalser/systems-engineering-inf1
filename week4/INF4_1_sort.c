@@ -35,3 +35,8 @@ int main() {
 
     return 0;
 }
+
+
+int test(double a, double b){
+   return a >= b ? a : b;
+}
