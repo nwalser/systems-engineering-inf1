@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <math.h>
+#include <stdlib.h>
+
 
 typedef struct Zeit{
     int h;
