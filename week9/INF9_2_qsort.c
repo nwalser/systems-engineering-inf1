@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <math.h>
 
+
 #define SIZE 5
 int a[SIZE] = {7, 12, 6, 43, 6};
 
@@ -22,19 +23,19 @@ void bubbleSort(int length, int a[]){
     qsort(a, SIZE, sizeof(int), cmpint);
 }
 
+void printInts(int len, int a[]){
+    for (int i = 0; i < len; i++) {
+        printf("%d ", a[i]);
+    }
+}
+
 int main() {
     printf("Unsorted Array: ");
-    for(int i = 0; i<SIZE; i++){
-        printf("%d, ", a[i]);
-    }
-
+    printInts(SIZE, a);
     bubbleSort(SIZE, a);
     printf("\n");
 
     printf("Sorted Array: ");
-    for(int i = 0; i<SIZE; i++){
-        printf("%d, ", a[i]);
-    }
-
+    printInts(SIZE, a);
     return 0;
 }
