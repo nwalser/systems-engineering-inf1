@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+unique-programm-maker/UniqueProgrammCreator/bin/
+
+unique-programm-maker/UniqueProgrammCreator/obj/
