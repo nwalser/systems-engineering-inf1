@@ -21,6 +21,7 @@
         "typeindex": "c",
         "xlocale": "c",
         "algorithm": "c",
-        "limits": "c"
+        "limits": "c",
+        "string.h": "c"
     }
 }
