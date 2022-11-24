@@ -15,6 +15,12 @@
         "stack": "c",
         "chrono": "c",
         "stdbool.h": "c",
-        "string": "c"
+        "string": "c",
+        "future": "c",
+        "system_error": "c",
+        "typeindex": "c",
+        "xlocale": "c",
+        "algorithm": "c",
+        "limits": "c"
     }
 }
