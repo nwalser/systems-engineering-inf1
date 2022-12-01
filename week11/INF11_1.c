@@ -21,14 +21,5 @@ void byte2binary (int num, char* result){
 }
 
 int main(void){
-    char buffer[65];
-    char * pt = &buffer[0];
-
-    int num = 120;
-
-    byte2binary(num, pt);
-
-    printf("%s\n", buffer);
-
     return 0;
 }

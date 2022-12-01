@@ -50,9 +50,5 @@ void bitWrite(unsigned int* x, unsigned int n, unsigned int b){
 
 int main(void)
 {
-
-
-
-
     return 0;
 }

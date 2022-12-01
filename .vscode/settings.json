@@ -22,6 +22,10 @@
         "xlocale": "c",
         "algorithm": "c",
         "limits": "c",
-        "string.h": "c"
+        "string.h": "c",
+        "regex": "c",
+        "sstream": "c",
+        "strstream": "c",
+        "filesystem": "c"
     }
 }
