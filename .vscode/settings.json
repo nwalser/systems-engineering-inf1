@@ -26,6 +26,7 @@
         "regex": "c",
         "sstream": "c",
         "strstream": "c",
-        "filesystem": "c"
+        "filesystem": "c",
+        "ratio": "c"
     }
 }
